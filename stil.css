@@ -1,0 +1,84 @@
+﻿body {
+    background-color: gray;
+}
+#slike{
+    width:900px;
+    height: 350px;
+    background-color: slategray;
+    position:absolute;
+    top:30%;
+    left:25%;
+}
+img{
+    position: absolute;
+    left:20%;
+    top:5%;
+    width: 500px;
+    height: 300px;
+}
+#str{
+    position:absolute;
+    top: 63%;
+    left: 36%;
+}
+table{
+    position:absolute;
+    width:100px;
+    height: 20px;
+}
+@keyframes slajder{
+    0%{opacity:0;}
+    7%{opacity:1;} 
+    20%{opacity:1;}
+    30%{opacity:0;}
+    100%{opacity:0;}
+}
+img:nth-child(1){
+    animation: slajder 15s 0s infinite;
+    z-index:5;
+}
+img:nth-child(2) {
+    animation: slajder 15s 3s infinite;
+    z-index: 4;
+}
+img:nth-child(3) {
+    animation: slajder 15s 6s infinite;
+    z-index: 3;
+}
+img:nth-child(4) {
+    animation: slajder 15s 9s infinite;
+    z-index: 2;
+}
+img:nth-child(5) {
+    animation: slajder 15s 12s infinite;
+    z-index: 1;
+}
+table:nth-child(1) {
+    animation: slajder 15s 0s infinite;
+    z-index: 5;
+}
+
+table:nth-child(2) {
+    animation: slajder 15s 3s infinite;
+    z-index: 4;
+}
+
+table:nth-child(3) {
+    animation: slajder 15s 6s infinite;
+    z-index: 3;
+}
+
+table:nth-child(4) {
+    animation: slajder 15s 9s infinite;
+    z-index: 2;
+}
+
+table:nth-child(5) {
+    animation: slajder 15s 12s infinite;
+    z-index: 1;
+}
+#link1{
+    position:absolute;
+    right:10%;
+    top: 10%;
+}
